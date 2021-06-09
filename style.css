@@ -1,0 +1,75 @@
+@media only screen and (min-width: 400px) {
+body {
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  background-image: url('bg1.jpeg');
+  /* background-repeat: no-repeat; */
+  
+  /* If the background-size property is set to "contain", the background image will scale, and try to fit the content area. */
+  background-size: contain;
+}
+
+
+.main_div{
+  margin-left: 300px;
+  width: 50%;
+  border-style: groove;
+  border-color: green;
+  
+}
+.header_div{
+  background-color: #00b377;
+  text-align:center;
+  font-size: 1.2rem;
+ }
+
+.grid-container{
+ background-color: white;
+}
+
+.flex-container{
+  display:flex;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 5px;
+  width: 50%;
+  border-radius:10px;
+   
+}
+.inputStyle {
+ border: 2px solid;
+ border-radius:5px;
+ width:100%;
+}
+
+.btn{
+  padding:3px;
+  border-radius:3px;
+  font-weight: bold;
+  background-color:#00b377;
+}
+
+
+.footer_div{
+
+text-align: center;
+	
+}
+
+img#img1{
+	display:none;
+}
+
+}
+
+
+@media only screen and (max-device-width:399px){
+ body {
+    background-image: url('handmade_flowers.jpg');
+ }
+}
+
